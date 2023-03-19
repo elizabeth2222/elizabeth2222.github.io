@@ -1,0 +1,103 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* typography */
+  body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  p {
+    margin-bottom: 16px;
+  }
+  
+  /* layout */
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #f6f6f6;
+    padding: 16px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 8px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  main {
+    flex: 1;
+    padding: 16px;
+  }
+  
+  #project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 16px;
+  }
+  
+  article {
+    background-color: #f6f6f6;
+    padding: 16px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  article:hover {
+    transform: translateY(-8px);
+  }
+  
+  article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+  }
+  

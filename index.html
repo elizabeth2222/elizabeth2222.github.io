@@ -1,35 +1,89 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Hell Apprentice</title>
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
-    <script src="TemplateData/UnityProgress.js"></script>
+    <meta charset="UTF-8">
+    <title>My Projects</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
   </head>
-  <body class="template">
-    <p class="header"><span>Unity WebGL Player | </span>Hell Apprentice</p>
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-      <br>
-      <div class="logo"></div>
-      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-      <div class="title">Hell Apprentice</div>
-    </div>
-    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-    <script type='text/javascript'>
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-    compatibilitycheck: null,
-    dataUrl: "Release/HotOilOnsen_WebGL.data",
-    codeUrl: "Release/HotOilOnsen_WebGL.js",
-    memUrl: "Release/HotOilOnsen_WebGL.mem",
-    
-  };
-</script>
-<script src="Release/UnityLoader.js"></script>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="intro-section">
+        <h1>My Projects</h1>
+        <p>Welcome to my portfolio showcasing my latest projects</p>
+        <!--a href="#project-list" class="btn">View Projects</a-->
+      </div>
+      <section id="project-list">
+        <article class="project">
+          <a href="#">
+            <!--img src="project1.jpg" alt="Project 1"-->
+            <img src="index_image/project1.GIF" alt="Project 1">
+          </a>
+          </div class="project-details">
+            <h2>What's for Dinner?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="https://project1demo.com" class="button">Go to the project demo</a>
+          </div>
+        </article>
+        
+        <article class="project">
+            <a href="#">
+              <img src="index_image/project2.GIF" alt="Project 2">
+            </a>
+            </div class="project-details">
+              <h2>Hot Oil Onsen</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="p2-hoos/index.html" class="button">Go to the project demo</a>
+            </div>
+          </article>
 
+
+          <article class="project">
+            <a href="#">
+              <img src="project3.jpg" alt="Project 3">
+            </a>
+            </div class="project-details">
+              <h2>Project 3</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="https://project1demo.com" class="button">Go to the project demo</a>
+            </div>
+          </article>
+
+
+        <!-- Add more projects here -->
+      </section>
+
+            <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-details">
+          <div class="contact-method">
+            <img src="instagram.png" alt="Instagram">
+            <p>@myusername</p>
+          </div>
+          <div class="contact-method">
+            <img src="linkedin.png" alt="LinkedIn">
+            <p>myusername</p>
+          </div>
+          <div class="contact-method">
+            <img src="email.png" alt="Email">
+            <p>me@example.com</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Company</p>
+    </footer>
   </body>
 </html>
