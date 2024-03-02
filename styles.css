@@ -63,6 +63,15 @@ h1 {
     background-color: #0056b3;
 }
 
+/* Style for the GIF */
+#gif {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; /* Adjust the max height as needed */
+    display: block;
+    margin: 0 auto;
+}
+
 #drawResult {
     display: block;
     margin: 0 auto; /* This will center the image horizontally */
